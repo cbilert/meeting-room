@@ -1,34 +1,62 @@
 HELP.md
-back/target/
+back/meetingroom/target/
 front/client-meeting-room/node_modules/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+back/meetingroom/.idea
+back/meetingroom/*.iws
+back/meetingroom/*.iml
+back/meetingroom/*.ipr
 
 ### VS Code ###
-.vscode/
+front/client-meeting-room/.vscode/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+front/client-meeting-room//dist
+front/client-meeting-room//tmp
+front/client-meeting-room//out-tsc
+# Only exists if Bazel was run
+front/client-meeting-room//bazel-out
+
+# dependencies
+front/client-meeting-room/node_modules
+
+# profiling files
+front/client-meeting-room/chrome-profiler-events*.json
+
+# IDEs and editors
+front/client-meeting-room//.idea
+front/client-meeting-room/.project
+front/client-meeting-room/.classpath
+front/client-meeting-room/.c9/
+front/client-meeting-room/*.launch
+front/client-meeting-room/.settings/
+front/client-meeting-room/*.sublime-workspace
+
+# IDE - VSCode
+front/client-meeting-room/.vscode/*
+!front/client-meeting-room/.vscode/settings.json
+!front/client-meeting-room/.vscode/tasks.json
+!front/client-meeting-room/.vscode/launch.json
+!front/client-meeting-room/.vscode/extensions.json
+front/client-meeting-room/.history/*
+
+# misc
+front/client-meeting-room//.angular/cache
+front/client-meeting-room//.sass-cache
+front/client-meeting-room//connect.lock
+front/client-meeting-room//coverage
+front/client-meeting-room//libpeerconnection.log
+front/client-meeting-room/npm-debug.log
+front/client-meeting-room/yarn-error.log
+front/client-meeting-room/testem.log
+front/client-meeting-room//typings
+
+# System Files
+front/client-meeting-room/.DS_Store
+front/client-meeting-room/Thumbs.db
